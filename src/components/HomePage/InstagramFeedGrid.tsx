@@ -37,7 +37,7 @@ export function InstagramFeedGrid() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="outline" size="md" className="gap-2 text-xs font-semibold shadow-sm">
+            <Button variant="outline" size="lg" className="gap-2 text-xs font-semibold shadow-sm">
               <InstagramIcon className="w-4 h-4 text-pink-600" />
               <span>Follow @midhula_farm_hut</span>
             </Button>

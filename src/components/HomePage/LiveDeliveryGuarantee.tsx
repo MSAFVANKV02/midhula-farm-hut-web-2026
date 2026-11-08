@@ -121,7 +121,7 @@ export function LiveDeliveryGuarantee() {
                 rel="noopener noreferrer"
               >
                 <Button
-                  variant="whatsapp"
+                  variant="default"
                   size="lg"
                   className="w-full sm:w-auto gap-2 font-bold shadow-lg"
                 >

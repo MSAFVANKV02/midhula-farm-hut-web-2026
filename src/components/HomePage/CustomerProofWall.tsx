@@ -107,7 +107,7 @@ export function CustomerProofWall() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="outline" size="md" className="gap-2 text-xs font-semibold text-slate-900">
+              <Button variant="outline" size="lg" className="gap-2 text-xs font-semibold text-slate-900">
                 <InstagramIcon className="w-4 h-4 text-pink-600" />
                 <span>Instagram Highlights</span>
               </Button>
@@ -122,7 +122,7 @@ export function CustomerProofWall() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="whatsapp" size="md" className="gap-2 font-bold shadow-sm">
+              <Button variant="default" size="lg" className="gap-2 font-bold shadow-sm">
                 <MessageCircle className="w-4 h-4 fill-black" />
                 <span>Message Sajith</span>
               </Button>

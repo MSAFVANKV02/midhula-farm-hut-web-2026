@@ -180,7 +180,7 @@ export function QuickViewModal({ breed, isOpen, onClose }: QuickViewModalProps) 
               className="block w-full"
             >
               <Button
-                variant="whatsapp"
+                variant="default"
                 size="lg"
                 className="w-full gap-2.5 font-bold shadow-md"
               >

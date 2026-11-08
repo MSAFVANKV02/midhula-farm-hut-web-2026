@@ -137,7 +137,7 @@ export function HeritageStorySection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="whatsapp" size="md" className="gap-2 font-bold shadow-sm">
+                <Button variant="default" size="lg" className="gap-2 font-bold shadow-sm">
                   <MessageCircle className="w-4 h-4 fill-black" />
                   <span>Plan a Farm Visit on WhatsApp</span>
                 </Button>
@@ -148,7 +148,7 @@ export function HeritageStorySection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outline" size="md" className="gap-2 text-xs font-semibold">
+                <Button variant="outline" size="lg" className="gap-2 text-xs font-semibold">
                   <span>Watch Farm Vlogs (75K Subs)</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </Button>

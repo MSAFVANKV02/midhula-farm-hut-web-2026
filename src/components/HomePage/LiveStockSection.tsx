@@ -234,7 +234,7 @@ export function LiveStockSection({
                         rel="noopener noreferrer"
                       >
                         <Button
-                          variant="whatsapp"
+                          variant="default"
                           size="sm"
                           className="gap-1.5 font-bold h-9 px-3 text-xs"
                         >

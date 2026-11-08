@@ -58,7 +58,7 @@ export function FaqSection() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button variant="whatsapp" size="sm" className="gap-2 font-bold whitespace-nowrap shadow-sm">
+            <Button variant="default" size="sm" className="gap-2 font-bold whitespace-nowrap shadow-sm">
               <MessageCircle className="w-4 h-4 fill-black" />
               <span>Ask on WhatsApp</span>
             </Button>

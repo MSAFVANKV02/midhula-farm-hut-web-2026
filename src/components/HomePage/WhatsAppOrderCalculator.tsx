@@ -245,7 +245,7 @@ Please confirm live availability and send payment / dispatch details!`;
               </div>
 
               <Button
-                variant="whatsapp"
+                variant="default"
                 size="lg"
                 onClick={handleWhatsAppOrder}
                 className="w-full gap-2 font-bold shadow-lg"

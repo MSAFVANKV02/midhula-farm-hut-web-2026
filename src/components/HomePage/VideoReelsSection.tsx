@@ -24,19 +24,15 @@ export function VideoReelsSection() {
   const [selectedReel, setSelectedReel] = React.useState<ReelItem | null>(null);
 
   return (
-    <section id="reels" className="py-20 bg-slate-50 border-b border-slate-200/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="reels" className="">
+      <div className="max-w-7xl mx-auto ">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
           <div>
-            <div className="inline-flex items-center gap-2 mb-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-xs font-semibold text-blue-700">
-              <InstagramIcon className="w-3.5 h-3.5 text-pink-600" />
-              <span>@midhula_farm_hut • Reels in Action</span>
-            </div>
             <h2 className="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight font-display">
               Watch Our Live Stock in Action
             </h2>
-            <p className="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl leading-relaxed">
+            <p className="text-slate-600 text-xs mt-2 max-w-2xl leading-relaxed">
               Real unfiltered footage straight from our breeding vats and
               packaging station in Thrissur, Kerala. Tap any reel to watch or
               inquire directly on WhatsApp.
@@ -60,17 +56,6 @@ export function VideoReelsSection() {
                 <ChevronRight className="w-5 h-5" />
               </button>
             </div>
-
-            <a
-              href={FARM_INFO.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="outline" size="sm" className="gap-2 text-xs font-semibold shadow-sm">
-                <InstagramIcon className="w-4 h-4 text-pink-600" />
-                <span>Visit Instagram (28.7K)</span>
-              </Button>
-            </a>
           </div>
         </div>
 
@@ -78,6 +63,8 @@ export function VideoReelsSection() {
         <div className="relative pb-6">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
+            loop={REELS_DATA.length > 4}
+            loopAdditionalSlides={4}
             navigation={{
               prevEl: "#reel-prev-btn",
               nextEl: "#reel-next-btn",
@@ -86,15 +73,15 @@ export function VideoReelsSection() {
               clickable: true,
               dynamicBullets: true,
             }}
-            spaceBetween={20}
+            spaceBetween={17}
             slidesPerView={1.2}
             breakpoints={{
-              640: { slidesPerView: 2.2, spaceBetween: 20 },
-              768: { slidesPerView: 3, spaceBetween: 24 },
-              1024: { slidesPerView: 4, spaceBetween: 24 },
+              640: { slidesPerView: 2.2, spaceBetween: 11 },
+              768: { slidesPerView: 3, spaceBetween: 16 },
+              1024: { slidesPerView: 4, spaceBetween: 16 },
             }}
             autoplay={{
-              delay: 5000,
+              delay: 3000,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
@@ -102,17 +89,17 @@ export function VideoReelsSection() {
           >
             {REELS_DATA.map((reel) => (
               <SwiperSlide key={reel.id}>
-                <div className="group rounded-2xl overflow-hidden bg-white border border-slate-200/90 hover:border-blue-300 transition-all duration-300 hover:shadow-xl flex flex-col h-full shadow-sm">
+                <div className="group rounded-2xl h-[350px] overflow-hidden bg-white border border-slate-200/90 hover:border-blue-300 transition-all duration-300 hover:shadow-xl flex flex-col shadow-sm">
                   {/* Vertical 9:16 Video Thumbnail Container */}
                   <div
                     onClick={() => setSelectedReel(reel)}
-                    className="relative aspect-[9/13] w-full overflow-hidden bg-slate-950 cursor-pointer"
+                    className="relative h-full w-full overflow-hidden bg-slate-950 cursor-pointer"
                   >
                     <Image
                       src={reel.thumbnail}
                       alt={reel.title}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="object-cover h-full w-full group-hover:scale-105 transition-transform duration-500"
                       sizes="(max-width: 640px) 80vw, (max-width: 1024px) 33vw, 25vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/10 to-transparent" />
@@ -146,26 +133,25 @@ export function VideoReelsSection() {
                           {reel.likes}
                         </span>
                       </div>
-                      <h3 className="font-bold text-white text-sm line-clamp-2 leading-snug drop-shadow-sm">
+                      <h3 className="font-bold !text-white text-sm line-clamp-2 leading-snug drop-shadow-sm">
                         {reel.title}
                       </h3>
                     </div>
                   </div>
 
                   {/* Card Actions Footer */}
-                  <div className="p-3 bg-white border-t border-slate-100 flex items-center gap-2 mt-auto">
+                  {/* <div className="p-3 bg-white border-t border-slate-100 flex items-center gap-2 mt-auto">
                     <a
                       href={generateWhatsAppLink(
                         undefined,
                         undefined,
-                        reel.whatsappInquiry
+                        reel.whatsappInquiry,
                       )}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex-1"
                     >
                       <Button
-                        variant="whatsapp"
                         size="sm"
                         className="w-full text-xs font-bold gap-1.5 h-9"
                       >
@@ -183,7 +169,7 @@ export function VideoReelsSection() {
                     >
                       <ExternalLink className="w-4 h-4" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </SwiperSlide>
             ))}

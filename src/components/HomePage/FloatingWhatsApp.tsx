@@ -4,6 +4,8 @@ import * as React from "react";
 import { FARM_INFO } from "@/data/farmData";
 import { generateWhatsAppLink } from "@/lib/utils";
 import { MessageCircle, X } from "lucide-react";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 export function FloatingWhatsApp() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -26,16 +28,17 @@ export function FloatingWhatsApp() {
   return (
     <>
       {/* Mobile Sticky Bottom Floating Order Bar */}
-      <div className="sm:hidden fixed bottom-0 left-0 right-0 z-40 p-3 bg-white/95 backdrop-blur-md border-t border-slate-200 shadow-xl">
-        <a
+      <div className="sm:hidden fixed bottom-1 left-0 right-0 z-40 ">
+        <Link
           href={generateWhatsAppLink()}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-[#25D366] text-black font-extrabold text-sm shadow-md active:scale-[0.98] transition-all"
         >
-          <MessageCircle className="w-5 h-5 fill-black" />
-          <span>Chat with Sajith (+91 8129120437)</span>
-        </a>
+          <Button className="w-[90%] mx-auto flex items-center justify-center gap-2 h-11 bg-[#25D366] text-black text-sm active:scale-[0.98] transition-all">
+            <MessageCircle className="w-5 h-5 fill-white" />
+            <span>Chat </span>
+          </Button>
+        </Link>
       </div>
 
       {/* Desktop Floating Widget */}
@@ -50,8 +53,12 @@ export function FloatingWhatsApp() {
                   <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500" />
                 </span>
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900">Sajith is Online</h4>
-                  <p className="text-[10px] text-slate-500">Midhula Farm Hut, Thrissur</p>
+                  <h4 className="text-xs font-bold text-slate-900">
+                    Sajith is Online
+                  </h4>
+                  <p className="text-[10px] text-slate-500">
+                    Midhula Farm Hut, Thrissur
+                  </p>
                 </div>
               </div>
 
@@ -65,7 +72,8 @@ export function FloatingWhatsApp() {
             </div>
 
             <p className="text-xs text-slate-600 my-3 leading-relaxed">
-              Have questions about live shipping, water acclimation, or stock? Tap a quick option:
+              Have questions about live shipping, water acclimation, or stock?
+              Tap a quick option:
             </p>
 
             <div className="space-y-2">

@@ -85,9 +85,10 @@ export const REELS_DATA: ReelItem[] = [
     id: "reel-1",
     title: "Baby Electric Blue Crayfish Clutch Feeding",
     category: "Crayfish & Lobsters",
-    instagramUrl: "https://www.instagram.com/p/DfZzTJ5xxIG/?hl=en",
+    instagramUrl: "https://www.instagram.com/p/DeUTLPMxsay/?hl=en",
+    // Unique crustacean / crab / lobster close-up
     thumbnail:
-      "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=800&q=80",
     views: "142K",
     likes: "9.8K",
     duration: "0:45",
@@ -102,6 +103,7 @@ export const REELS_DATA: ReelItem[] = [
     title: "Albino Full Red Dumbo Ear High Fin Trio",
     category: "Champion Guppies",
     instagramUrl: "https://www.instagram.com/p/DfKslgZxvrh/?hl=en",
+    // Vibrant red/orange high-fin ornamental fish
     thumbnail:
       "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&w=800&q=80",
     views: "218K",
@@ -118,6 +120,7 @@ export const REELS_DATA: ReelItem[] = [
     title: "Nedupuzha Farm Walkthrough & 60+ Bio-Tanks",
     category: "Farm Tour",
     instagramUrl: "https://www.instagram.com/p/Dewd87uRrWd/?hl=en",
+    // Green-water / planted aquatic breeding tank setup
     thumbnail:
       "https://images.unsplash.com/photo-1516683037151-9a17603a8dc7?auto=format&fit=crop&w=800&q=80",
     views: "95K",
@@ -133,9 +136,10 @@ export const REELS_DATA: ReelItem[] = [
     id: "reel-4",
     title: "Live Parcel Packing with 72-Hour Medical Oxygen",
     category: "Packing & Delivery",
-    instagramUrl: "https://www.instagram.com/p/DeUTLPMxsay/?hl=en",
+    instagramUrl: "https://www.instagram.com/p/DfZzTJ5xxIG/?hl=en",
+    // Clear oxygenated water & live aquatic fish inspection/conditioning
     thumbnail:
-      "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80",
     views: "310K",
     likes: "24.6K",
     duration: "0:58",
@@ -149,9 +153,10 @@ export const REELS_DATA: ReelItem[] = [
     id: "reel-5",
     title: "Giant Cherax Quadricarinatus (Australian Redclaw)",
     category: "Crayfish & Lobsters",
-    instagramUrl: "https://www.instagram.com/p/DZ2kOBBRlcT/?hl=en",
+    instagramUrl: "https://www.instagram.com/p/Dd9GLXSxIZe/?hl=en",
+    // Live clawed crab / crustacean in natural aquatic habitat
     thumbnail:
-      "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80",
     views: "185K",
     likes: "14.2K",
     duration: "0:48",

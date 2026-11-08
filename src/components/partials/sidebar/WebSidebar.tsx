@@ -24,14 +24,14 @@ import MainLogo from "../logos/MainLogo";
 const WebSidebar = () => {
   return (
     <Sheet>
-      <SheetTrigger>
+      <SheetTrigger className={'p-0 px-0 sm:p-0'}>
         <Button
           variant="ghost"
           size="icon"
           aria-label="Open navigation menu"
           className="rounded-xl"
         >
-          <Menu className="h-6 w-6" />
+          <Menu className="h-5 w-5" />
         </Button>
       </SheetTrigger>
 

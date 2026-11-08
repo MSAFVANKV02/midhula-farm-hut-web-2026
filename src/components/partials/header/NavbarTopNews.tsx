@@ -5,14 +5,16 @@ type Props = {};
 
 const NavbarTopNews = (props: Props) => {
   return (
-    <div className="bg-slate-900 text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-4">
-        <div className="flex items-center gap-2 mx-auto sm:mx-0">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+    <div className="bg-slate-900 sm:block hidden text-slate-300 text-xs py-2 px-4 border-b border-slate-800">
+      <div className="max-w-7xl mx-auto md:flex-row flex-col flex md:items-center md:justify-between gap-4">
+        <div className="flex md:items-center md:flex-row flex-col gap-2 mx-auto sm:mx-0">
+         <div className="flex items-center gap-2">
+           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
           <span className="font-semibold text-white">
             Live Dispatches Active:
           </span>
-          <span className="text-slate-300">
+         </div>
+          <span className="text-slate-300 text-xs">
             Safe Pan-India Delivery in Thermocol Vaults with 72h Pure Oxygen
           </span>
         </div>

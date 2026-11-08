@@ -15,7 +15,9 @@ import { Footer } from "@/components/partials/footer/Footer";
 import { FloatingWhatsApp } from "@/components/HomePage/FloatingWhatsApp";
 
 export default function HomePage() {
-  const [selectedBreedId, setSelectedBreedId] = React.useState<string | null>(null);
+  const [selectedBreedId, setSelectedBreedId] = React.useState<string | null>(
+    null,
+  );
 
   const handleHeroSelectBreed = (breedId: string) => {
     setSelectedBreedId(breedId);
@@ -31,12 +33,32 @@ export default function HomePage() {
       <Navbar />
 
       {/* Main Content Sections */}
-      <main className="flex-1">
+      <main className="flex-1 space-y-12  pt-3 sm:pt-10 sm:space-y-16">
         {/* 1. Hero Section with Live Stats & Featured Strain */}
-        <HeroSection onSelectBreed={handleHeroSelectBreed} />
+
+        <div className="relative px-4 sm:px-6 lg:px-8  isolate">
+          <HeroSection onSelectBreed={handleHeroSelectBreed} />
+
+          {/* Soft foggy bottom transition */}
+          <div
+            className="
+      pointer-events-none
+      absolute inset-x-0 sm:-bottom-14 bottom-0
+      h-96
+      bg-gradient-to-t
+      from-white
+      via-blue-200/30
+      to-transparent
+      
+    "
+          />
+          {/* <div className="absolute inset-0 bg-gradient-to-t from-blue-200 via-white/10 to-[90%] pointer-events-none"></div> */}
+        </div>
 
         {/* 2. Instagram Video Reels Carousel (Swiper) */}
-        <VideoReelsSection />
+        <div className="">
+          <VideoReelsSection />
+        </div>
 
         {/* 3. Filterable Live Stock & Breed Catalog */}
         <LiveStockSection selectedBreedId={selectedBreedId} />

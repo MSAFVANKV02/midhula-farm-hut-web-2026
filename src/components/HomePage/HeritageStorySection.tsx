@@ -52,7 +52,7 @@ export function HeritageStorySection() {
                 </span>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Founded by Sajith out of a deep personal passion for pure
+                Founded by Midhun out of a deep personal passion for pure
                 aquatic genetics and named with love after Midhula. Built on
                 honesty and uncompromised care.
               </p>
@@ -120,7 +120,7 @@ export function HeritageStorySection() {
                     Farm Visits Welcome in Thrissur
                   </h4>
                   <p className="text-xs text-slate-500 mt-0.5">
-                    Located in Nedupuzha, Thrissur. Aquarists can message Sajith
+                    Located in Nedupuzha, Thrissur. Aquarists can message Midhun
                     on WhatsApp to arrange a personal walk-in farm tour and pick
                     strains on the spot.
                   </p>
@@ -134,7 +134,7 @@ export function HeritageStorySection() {
                 href={generateWhatsAppLink(
                   undefined,
                   undefined,
-                  "Hi Sajith, I'd like to plan a visit to your Nedupuzha, Thrissur farm. What are your visiting hours?"
+                  "Hi Midhun, I'd like to plan a visit to your Nedupuzha, Thrissur farm. What are your visiting hours?"
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

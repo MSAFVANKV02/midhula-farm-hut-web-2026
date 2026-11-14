@@ -24,9 +24,9 @@ export function generateWhatsAppLink(
   if (customMessage) {
     message = customMessage;
   } else if (productName) {
-    message = `Hi Sajith! 👋 I saw *${productName}* (${quantity}) on your Midhula Farm Hut website. I would like to check availability and place an order. Could you share details & shipping to my pincode?`;
+    message = `Hi Midhun! 👋 I saw *${productName}* (${quantity}) on your Midhula Farm Hut website. I would like to check availability and place an order. Could you share details & shipping to my pincode?`;
   } else {
-    message = `Hi Sajith! 👋 I visited the Midhula Farm Hut website and would like to inquire about your current live stock and safe all-India delivery.`;
+    message = `Hi Midhun! 👋 I visited the Midhula Farm Hut website and would like to inquire about your current live stock and safe all-India delivery.`;
   }
 
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;

@@ -13,15 +13,15 @@ export function FloatingWhatsApp() {
   const quickMessages = [
     {
       label: "🐟 Check Live Stock Availability",
-      text: "Hi Sajith, what live fish and crayfish pairs are currently ready for immediate dispatch from Thrissur?",
+      text: "Hi Midhun, what live fish and crayfish pairs are currently ready for immediate dispatch from Thrissur?",
     },
     {
       label: "🚚 Check Shipping to My Pincode",
-      text: "Hi Sajith, what are the shipping charges and delivery timeframe for my pincode?",
+      text: "Hi Midhun, what are the shipping charges and delivery timeframe for my pincode?",
     },
     {
       label: "🌿 Farm Visit in Nedupuzha",
-      text: "Hi Sajith, I'd like to visit your breeding farm in Nedupuzha, Thrissur. What is the best time?",
+      text: "Hi Midhun, I'd like to visit your breeding farm in Nedupuzha, Thrissur. What is the best time?",
     },
   ];
 
@@ -54,7 +54,7 @@ export function FloatingWhatsApp() {
                 </span>
                 <div>
                   <h4 className="text-xs font-bold text-slate-900">
-                    Sajith is Online
+                    Midhun is Online
                   </h4>
                   <p className="text-[10px] text-slate-500">
                     Midhula Farm Hut, Thrissur

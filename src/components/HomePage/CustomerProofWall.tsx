@@ -93,7 +93,7 @@ export function CustomerProofWall() {
         {/* WhatsApp Real Chat Callout Banner */}
         <div className="rounded-2xl p-6 sm:p-8 bg-slate-950 text-white flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left shadow-lg">
           <div className="space-y-2">
-            <h3 className="text-xl sm:text-2xl font-bold text-white font-display">
+            <h3 className="text-xl sm:text-2xl font-bold text-white! font-display">
               Join Our 28.7K+ Instagram Community
             </h3>
             <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
@@ -117,14 +117,14 @@ export function CustomerProofWall() {
               href={generateWhatsAppLink(
                 undefined,
                 undefined,
-                "Hi Sajith, I'd like to ask a quick question before placing my first live fish order."
+                "Hi Midhun, I'd like to ask a quick question before placing my first live fish order."
               )}
               target="_blank"
               rel="noopener noreferrer"
             >
               <Button variant="default" size="lg" className="gap-2 font-bold shadow-sm">
                 <MessageCircle className="w-4 h-4 fill-black" />
-                <span>Message Sajith</span>
+                <span>Message </span>
               </Button>
             </a>
           </div>

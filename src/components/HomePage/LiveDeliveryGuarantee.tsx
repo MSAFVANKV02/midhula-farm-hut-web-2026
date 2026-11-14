@@ -91,7 +91,7 @@ export function LiveDeliveryGuarantee() {
                 If, in the rarest scenario, any fish or crayfish arrives dead in
                 transit: simply record a continuous 30-second unboxing video of
                 the unopened sealed oxygen bag within 2 hours of delivery and
-                WhatsApp it to Sajith (+91 8129120437). We will dispatch a free
+                WhatsApp it to Midhun (+91 8129120437). We will dispatch a free
                 replacement pair or initiate a full refund on the same day.
               </p>
 
@@ -116,7 +116,7 @@ export function LiveDeliveryGuarantee() {
                 href={generateWhatsAppLink(
                   undefined,
                   undefined,
-                  "Hi Sajith, I would like to know how live shipping works for my city/pincode, and confirm current dispatch days.",
+                  "Hi Midhun, I would like to know how live shipping works for my city/pincode, and confirm current dispatch days.",
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

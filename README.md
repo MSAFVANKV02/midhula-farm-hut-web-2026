@@ -10,7 +10,7 @@
 
 ## 🏆 Competition & Project Overview
 
-- **Client / Brand:** **Midhula Farm Hut** (Founded by Sajith — `@s_a_j_i_t_h_b_o_y`)
+- **Client / Brand:** **Midhula Farm Hut** (Founded by Midhun — `@s_a_j_i_t_h_b_o_y`)
 - **Location:** Nedupuzha, Thrissur, Kerala, India — 680007
 - **Official Socials:**
   - Instagram: [@midhula_farm_hut](https://www.instagram.com/midhula_farm_hut/?hl=en) (**28.7K+ Followers**, **1,968+ Posts**)
@@ -69,10 +69,10 @@ Integrates the **real Instagram reels** provided in the competition brief:
 
 ### 5. Interactive WhatsApp Order & Shipping Estimator
 - Allows customers to select any strain, adjust pairs/units, pick their delivery zone (**Kerala Overnight**, **South India**, or **Pan-India Express**), and view a transparent breakdown including courier and thermocol box fees.
-- Generates a cleanly formatted WhatsApp message ready to send to Sajith (`+91 8129120437`).
+- Generates a cleanly formatted WhatsApp message ready to send to Midhun (`+91 8129120437`).
 
 ### 6. The Midhula Farm Story & Heritage
-- Highlights Sajith's selective breeding in Nedupuzha, Thrissur, Kerala.
+- Highlights Midhun's selective breeding in Nedupuzha, Thrissur, Kerala.
 - Reared with green water, natural live culture (moina, daphnia, artemia), and fresh spring water under Kerala's tropical sunshine.
 - Explains the origin: Named affectionately after Midhula.
 
@@ -168,7 +168,7 @@ The output PDF is saved to `notes/Midhula_Farm_Hut_Client_Proposal.pdf`.
 ## 🎯 Roadmap for the Full ₹35,000 Project Phase
 
 1. **Dynamic Product Detail Routes (`/breeds/[slug]`):** Multi-angle photo sliders, broodstock pedigree tree, water parameter meters, and compatible tank-mate recommendations.
-2. **Admin Panel with Full CRUD Operations:** Secure dashboard for Sajith to add new strains, adjust pair prices, toggle stock ("In Stock / Limited / Sold Out"), and upload photos directly.
+2. **Admin Panel with Full CRUD Operations:** Secure dashboard for Midhun to add new strains, adjust pair prices, toggle stock ("In Stock / Limited / Sold Out"), and upload photos directly.
 3. **WhatsApp Automated Notification Engine:** Automated order status updates, air cargo AWB tracking numbers, and live unboxing video verification system.
 4. **Interactive Farm Visit Scheduler:** Online booking for walk-in visits to the Nedupuzha Thrissur facility with automated Google Maps directions.
 

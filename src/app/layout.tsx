@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Live Aquarium Fish Online Kerala",
     "Nedupuzha Thrissur Fish Farm",
   ],
-  authors: [{ name: "Sajith (Midhula Farm Hut)" }],
+  authors: [{ name: "Midhun (Midhula Farm Hut)" }],
   openGraph: {
     title: "Midhula Farm Hut - Exotic Fish & Crayfish Breeder | Thrissur, Kerala",
     description:

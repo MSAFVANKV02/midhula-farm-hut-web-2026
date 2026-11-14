@@ -186,7 +186,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            &copy; {new Date().getFullYear()} Midhula Farm Hut. Founded by Sajith. All rights reserved.
+            &copy; {new Date().getFullYear()} Midhula Farm Hut. Founded by Midhun. All rights reserved.
           </p>
 
           <div className="flex items-center gap-4">

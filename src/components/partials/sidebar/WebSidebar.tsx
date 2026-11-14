@@ -104,7 +104,7 @@ const WebSidebar = () => {
                 className="w-full gap-2 rounded-xl bg-green-600 font-bold text-white hover:bg-green-700"
               >
                 <MessageCircle className="h-5 w-5" />
-                Chat with Sajith
+                Chat with Midhun
                 <ChevronRight className="ml-auto h-4 w-4" />
               </Button>
             </a>

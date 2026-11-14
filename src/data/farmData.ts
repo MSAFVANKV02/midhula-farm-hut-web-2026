@@ -62,7 +62,7 @@ export interface FarmStats {
 export const FARM_INFO = {
   name: "Midhula Farm Hut",
   tagline: "Kerala's Premier Live Fish & Exotic Breeder",
-  founder: "Sajith (@s_a_j_i_t_h_b_o_y)",
+  founder: "Midhun (@s_a_j_i_t_h_b_o_y)",
   namedAfter: "Midhula",
   location: "Nedupuzha, Thrissur, Kerala, India - 680007",
   whatsappNumber: "+91 8129120437",
@@ -96,7 +96,7 @@ export const REELS_DATA: ReelItem[] = [
       "Witnessing our prize berried female Cherax pulcher releasing her hundreds of vibrant blue hatchlings in pure Kerala fresh spring water. 100% captive bred at Midhula Farm Hut!",
     featuredBreed: "Cherax Pulcher (Electric Blue Crayfish)",
     whatsappInquiry:
-      "Hi Sajith, I watched your reel on Baby Electric Blue Crayfish (DfZzTJ5xxIG). Are juveniles or breeding pairs currently available for dispatch to my pincode?",
+      "Hi Midhun, I watched your reel on Baby Electric Blue Crayfish (DfZzTJ5xxIG). Are juveniles or breeding pairs currently available for dispatch to my pincode?",
   },
   {
     id: "reel-2",
@@ -113,7 +113,7 @@ export const REELS_DATA: ReelItem[] = [
       "Pure ruby-red bloodline with massive dorsal sails and wide elephant ear fins. Reared in bio-filtered outdoor tubs under natural Thrissur sunlight.",
     featuredBreed: "Albino Full Red Dumbo Ear Guppy",
     whatsappInquiry:
-      "Hi Sajith, I loved your Albino Full Red Guppy reel (DfKslgZxvrh). I want to order a show-grade breeding trio. Please share details!",
+      "Hi Midhun, I loved your Albino Full Red Guppy reel (DfKslgZxvrh). I want to order a show-grade breeding trio. Please share details!",
   },
   {
     id: "reel-3",
@@ -130,7 +130,7 @@ export const REELS_DATA: ReelItem[] = [
       "Take a virtual walk through our Thrissur facility! Over 60 specialized conditioning ponds, live daphnia/artemia culturing stations, and green-water guppy nurseries.",
     featuredBreed: "Midhula Farm Facility Tour",
     whatsappInquiry:
-      "Hi Sajith, saw your farm walkthrough reel (Dewd87uRrWd). Can I arrange a visit to your Nedupuzha Thrissur farm, or order selected live stock directly?",
+      "Hi Midhun, saw your farm walkthrough reel (Dewd87uRrWd). Can I arrange a visit to your Nedupuzha Thrissur farm, or order selected live stock directly?",
   },
   {
     id: "reel-4",
@@ -144,10 +144,10 @@ export const REELS_DATA: ReelItem[] = [
     likes: "24.6K",
     duration: "0:58",
     caption:
-      "How do our fish travel 2,500 km safely? Watch Sajith pack live fish with 70% pure oxygen, double leakproof bags, and premium insulated thermocol cushioning.",
+      "How do our fish travel 2,500 km safely? Watch Midhun pack live fish with 70% pure oxygen, double leakproof bags, and premium insulated thermocol cushioning.",
     featuredBreed: "Live Delivery Packaging Process",
     whatsappInquiry:
-      "Hi Sajith, saw your safe packing reel (DeUTLPMxsay). How long does delivery take to my state, and what is your live arrival guarantee policy?",
+      "Hi Midhun, saw your safe packing reel (DeUTLPMxsay). How long does delivery take to my state, and what is your live arrival guarantee policy?",
   },
   {
     id: "reel-5",
@@ -164,7 +164,7 @@ export const REELS_DATA: ReelItem[] = [
       "Massive Australian Redclaw male showing off his radiant crimson claw patches and sapphire exoskeleton. An extraordinary showpiece for large planted tanks.",
     featuredBreed: "Australian Redclaw (Cherax Quadricarinatus)",
     whatsappInquiry:
-      "Hi Sajith, I'm interested in the giant Redclaw crayfish from your reel (DZ2kOBBRlcT). Do you have pairs or single males ready for dispatch?",
+      "Hi Midhun, I'm interested in the giant Redclaw crayfish from your reel (DZ2kOBBRlcT). Do you have pairs or single males ready for dispatch?",
   },
 ];
 
@@ -397,7 +397,7 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
     breedOrdered: "Cherax Pulcher Electric Blue Pair",
     comment:
-      "Was skeptical about shipping live crayfish from Kerala to Mumbai, but Sajith guided me step-by-step on WhatsApp. The delivery was made by express courier on the 2nd day, 100% alive and healthy! The blue color is even more stunning than in his Instagram videos.",
+      "Was skeptical about shipping live crayfish from Kerala to Mumbai, but Midhun guided me step-by-step on WhatsApp. The delivery was made by express courier on the 2nd day, 100% alive and healthy! The blue color is even more stunning than in his Instagram videos.",
     whatsappVerified: true,
   },
   {
@@ -409,7 +409,7 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
     breedOrdered: "Dumbo Ear Red Mosaic Dragon Trio",
     comment:
-      "91,000 YouTube subscribers don't lie! Sajith bro provided unboxing tips and even shared his personal water parameters. The female gave birth to 35 healthy fry within 10 days of arrival. 10/10 recommendation for all Indian fish keepers.",
+      "91,000 YouTube subscribers don't lie! Midhun bro provided unboxing tips and even shared his personal water parameters. The female gave birth to 35 healthy fry within 10 days of arrival. 10/10 recommendation for all Indian fish keepers.",
     whatsappVerified: true,
   },
   {
@@ -421,7 +421,7 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80",
     breedOrdered: "Australian Redclaw Juvenile Pair",
     comment:
-      "Visited his Nedupuzha farm in Thrissur directly while on a trip to Guruvayur. The facility is exceptionally neat and clean. Selected my pair on the spot. Great hospitality by Sajith and genuine pure genetics.",
+      "Visited his Nedupuzha farm in Thrissur directly while on a trip to Guruvayur. The facility is exceptionally neat and clean. Selected my pair on the spot. Great hospitality by Midhun and genuine pure genetics.",
     whatsappVerified: true,
   },
 ];
@@ -437,11 +437,11 @@ export const FAQS = [
   },
   {
     q: "How do I place an order via WhatsApp?",
-    a: "Browse any breed on this website and click 'Order via WhatsApp'. This automatically opens WhatsApp with a pre-filled message specifying the strain and quantity. Sajith will confirm live stock availability, calculate courier charges to your pincode, share account/UPI details, and dispatch on our weekly scheduled shipping days (Mondays and Tuesdays).",
+    a: "Browse any breed on this website and click 'Order via WhatsApp'. This automatically opens WhatsApp with a pre-filled message specifying the strain and quantity. Midhun will confirm live stock availability, calculate courier charges to your pincode, share account/UPI details, and dispatch on our weekly scheduled shipping days (Mondays and Tuesdays).",
   },
   {
     q: "Can I visit Midhula Farm Hut in person in Thrissur?",
-    a: "Yes! Hobbyists are welcome to visit our breeding farm located at Nedupuzha, Thrissur, Kerala. Please message us on WhatsApp (+91 8129120437) at least 24 hours in advance so Sajith can personally welcome you and guide you through the breeding ponds.",
+    a: "Yes! Hobbyists are welcome to visit our breeding farm located at Nedupuzha, Thrissur, Kerala. Please message us on WhatsApp (+91 8129120437) at least 24 hours in advance so Midhun can personally welcome you and guide you through the breeding ponds.",
   },
   {
     q: "How should I acclimate the fish when my parcel arrives?",

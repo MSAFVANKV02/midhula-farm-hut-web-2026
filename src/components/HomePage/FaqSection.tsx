@@ -45,7 +45,7 @@ export function FaqSection() {
               Have a question about water compatibility or breeding pairs?
             </h4>
             <p className="text-xs text-slate-500 mt-0.5">
-              Chat directly with Sajith on WhatsApp — we answer within minutes!
+              Chat directly with Midhun on WhatsApp — we answer within minutes!
             </p>
           </div>
 
@@ -53,7 +53,7 @@ export function FaqSection() {
             href={generateWhatsAppLink(
               undefined,
               undefined,
-              "Hi Sajith, I have a quick question about fish care / water parameters before ordering."
+              "Hi Midhun, I have a quick question about fish care / water parameters before ordering."
             )}
             target="_blank"
             rel="noopener noreferrer"

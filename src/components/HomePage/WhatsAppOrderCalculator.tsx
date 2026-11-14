@@ -51,7 +51,7 @@ export function WhatsAppOrderCalculator() {
   const grandTotal = breedSubtotal + currentZone.courier + thermocolBoxFee;
 
   const handleWhatsAppOrder = () => {
-    const formattedMessage = `Hi Sajith! 👋 I used your Midhula Farm Hut Order Estimator:
+    const formattedMessage = `Hi Midhun! 👋 I used your Midhula Farm Hut Order Estimator:
 
 🐟 *Selected Breed:* ${currentBreed.name}
 📦 *Quantity:* ${pairCount} Pair(s) / Unit(s)

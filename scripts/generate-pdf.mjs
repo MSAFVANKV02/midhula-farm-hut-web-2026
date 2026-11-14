@@ -95,7 +95,7 @@ doc.setFont("helvetica", "normal");
 doc.setFontSize(9.5);
 doc.setTextColor(51, 65, 85);
 const introText =
-  "This project was specifically crafted for Midhula Farm Hut (founded by Sajith, located in Nedupuzha, Thrissur, Kerala) in response to the Website Development Competition organized with tech_by_richard. Built with an uncluttered, high-contrast, clean white, ocean blue, and vibrant ruby red aesthetic, this solution reflects the beauty of pure Albino Full Red Guppies and Electric Blue Crayfish, backed by a conversion-first WhatsApp live ordering workflow.";
+  "This project was specifically crafted for Midhula Farm Hut (founded by Midhun, located in Nedupuzha, Thrissur, Kerala) in response to the Website Development Competition organized with tech_by_richard. Built with an uncluttered, high-contrast, clean white, ocean blue, and vibrant ruby red aesthetic, this solution reflects the beauty of pure Albino Full Red Guppies and Electric Blue Crayfish, backed by a conversion-first WhatsApp live ordering workflow.";
 const introLines = doc.splitTextToSize(introText, contentWidth);
 doc.text(introLines, margin, y);
 y += introLines.length * 4.8 + 4;
@@ -278,7 +278,7 @@ const roadmapPhases = [
   },
   {
     phase: "Phase 2: Admin Dashboard with Full CRUD Operations",
-    detail: "Secure authentication for Sajith & farm staff to create, update, price, and archive live stock pairs, upload photos, and toggle 'In Stock / Few Pairs / Seasonal' statuses in real time.",
+    detail: "Secure authentication for Midhun & farm staff to create, update, price, and archive live stock pairs, upload photos, and toggle 'In Stock / Few Pairs / Seasonal' statuses in real time.",
   },
   {
     phase: "Phase 3: Automated WhatsApp Ordering & Order History",

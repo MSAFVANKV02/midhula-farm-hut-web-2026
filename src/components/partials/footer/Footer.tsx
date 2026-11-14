@@ -11,6 +11,7 @@ import {
   Phone,
   ArrowUp,
 } from "lucide-react";
+import MainLogo from "../logos/MainLogo";
 
 export function Footer() {
   const scrollToTop = () => {
@@ -24,11 +25,9 @@ export function Footer() {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center font-mono font-bold text-white text-xs">
-                MFH
-              </div>
+              <MainLogo />
               <div>
-                <span className="text-lg font-extrabold text-white tracking-tight font-display">
+                <span className="text-lg font-extrabold text-white! tracking-tight font-display">
                   MIDHULA FARM HUT
                 </span>
                 <p className="text-[11px] text-blue-400 font-medium">

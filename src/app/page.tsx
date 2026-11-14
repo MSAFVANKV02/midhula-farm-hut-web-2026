@@ -13,6 +13,7 @@ import { InstagramFeedGrid } from "@/components/HomePage/InstagramFeedGrid";
 import { FaqSection } from "@/components/HomePage/FaqSection";
 import { Footer } from "@/components/partials/footer/Footer";
 import { FloatingWhatsApp } from "@/components/HomePage/FloatingWhatsApp";
+import InteractiveBubbles from "@/components/particles/CanvasBubbles";
 
 export default function HomePage() {
   const [selectedBreedId, setSelectedBreedId] = React.useState<string | null>(
@@ -30,6 +31,10 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white text-slate-900 flex flex-col selection:bg-blue-600 selection:text-white pb-16 sm:pb-0">
       {/* Navigation Header */}
+     {/* <BubbleBackground count={25} /> */}
+     <div className="sm:block hidden">
+     <InteractiveBubbles count={3} />
+     </div>
       <Navbar />
 
       {/* Main Content Sections */}
@@ -61,7 +66,7 @@ export default function HomePage() {
         </div>
 
         {/* 3. Filterable Live Stock & Breed Catalog */}
-        <LiveStockSection selectedBreedId={selectedBreedId} />
+        {/* <LiveStockSection selectedBreedId={selectedBreedId} /> */}
 
         {/* 4. 100% Live Delivery Guarantee & Medical Oxygen Packing */}
         <LiveDeliveryGuarantee />

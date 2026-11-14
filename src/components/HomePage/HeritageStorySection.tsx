@@ -29,13 +29,15 @@ export function HeritageStorySection() {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 600px"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-700/30 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-transparent to-transparent" />
 
-              <div className="absolute bottom-6 left-6 right-6 text-white">
+
+              <div className="absolute top-6 left-6 right-6 text-white">
                 <span className="text-xs uppercase font-bold text-blue-400 tracking-wider">
                   Nedupuzha, Thrissur, Kerala
                 </span>
-                <h3 className="text-xl font-bold text-white mt-1">
+                <h3 className="text-xl font-bold text-white! mt-1">
                   60+ Bio-Filtered Outdoor Vats Reared Under Tropical Sunshine
                 </h3>
               </div>
@@ -72,7 +74,7 @@ export function HeritageStorySection() {
                 What began as a handful of breeding ponds in Nedupuzha,
                 Thrissur has grown into one of India&apos;s most respected
                 ornamental fish hatcheries, trusted by over 28,700 Instagram
-                enthusiasts and 75,000 YouTube subscribers nationwide.
+                enthusiasts and 91,000 YouTube subscribers nationwide.
               </p>
               <p>
                 Unlike commercial industrial hatcheries that rely on chemical

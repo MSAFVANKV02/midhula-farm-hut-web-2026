@@ -72,7 +72,7 @@ export const FARM_INFO = {
   youtubeUrl: "https://www.youtube.com/@midhula_farm_hut",
   stats: {
     instagramFollowers: "28.7K+",
-    youtubeSubscribers: "75K+",
+    youtubeSubscribers: "91.7K+",
     postsCount: "1,968+",
     satisfiedHobbyists: "15,000+",
     liveArrivalRate: "99.8%",
@@ -409,7 +409,7 @@ export const CUSTOMER_REVIEWS: CustomerReview[] = [
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80",
     breedOrdered: "Dumbo Ear Red Mosaic Dragon Trio",
     comment:
-      "75,000 YouTube subscribers don't lie! Sajith bro provided unboxing tips and even shared his personal water parameters. The female gave birth to 35 healthy fry within 10 days of arrival. 10/10 recommendation for all Indian fish keepers.",
+      "91,000 YouTube subscribers don't lie! Sajith bro provided unboxing tips and even shared his personal water parameters. The female gave birth to 35 healthy fry within 10 days of arrival. 10/10 recommendation for all Indian fish keepers.",
     whatsappVerified: true,
   },
   {

@@ -46,14 +46,14 @@ export function HeroSection({
       title: "Instagram Community",
       count: FARM_INFO.stats.instagramFollowers,
       description: "Join our growing fishkeeping community",
-      icon: <FaInstagram className="w-5 h-5 text-emerald-600" />,
+      icon: <FaInstagram className="w-5 h-5 text-pink-600" />,
     },
     {
       id: 4,
       title: "YouTube Community",
       count: FARM_INFO.stats.youtubeSubscribers,
       description: "Follow our farm journey and fishkeeping tips",
-      icon: <FaYoutube className="w-5 h-5 text-blue-600" />,
+      icon: <FaYoutube className="w-5 h-5 text-red-600" />,
     },
   ];
 
@@ -76,9 +76,10 @@ export function HeroSection({
 
           {/* Main Headline */}
           <h1 className="text-4xl uppercase font-medium tracking-tight text-slate-950 leading-[1.15] font-display">
-            Exotic Breeds Raised with Passion in{" "}
-            <span className="">Thrissur</span>,{" "}
-            <span className="">Kerala.</span>
+            {/* Exotic Breeds Raised with Passion  */}
+            Living Jewels from Our Family to Your Home.
+            {/* <span className="">Thrissur</span>,{" "}
+            <span className="">Kerala.</span> */}
           </h1>
 
           {/* Subtitle */}

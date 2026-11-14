@@ -23,16 +23,17 @@ export function LiveDeliveryGuarantee() {
   };
 
   return (
-    <section id="guarantee" className="py-20 bg-slate-50 border-b border-slate-200/80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 mb-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-xs font-semibold text-blue-700">
-            <span>Safe Transit Protocol • 99.8% Success</span>
-          </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-950 tracking-tight font-display">
+    <section
+      id="guarantee"
+      className="sm:py-6 md:py-14 py-4 bg-slate-50 border-b border-slate-200/80"
+    >
+      <div className="max-w-7xl  space-y-6 mx-auto px-4 sm:px-6 lg:px-8">
+        <div>
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight font-display">
+            {/* Safe Transit Protocol • 99.8% Success */}
             How We Safely Ship Live Fish Across India
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+          <p className="text-slate-600 text-xs mt-2 max-w-2xl leading-relaxed">
             Shipping live aquatic animals over 2,500 kilometers requires medical
             precision. Over the past 6 years, we have perfected our 4-stage
             packaging protocol with an extraordinary 99.8% live arrival success
@@ -41,7 +42,7 @@ export function LiveDeliveryGuarantee() {
         </div>
 
         {/* 4-Step Packaging Process Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-6 gap-3 mb-14">
           {PACKING_STEPS.map((step) => (
             <div
               key={step.step}
@@ -82,7 +83,7 @@ export function LiveDeliveryGuarantee() {
                 <span>Zero-Risk Customer Warranty</span>
               </div>
 
-              <h3 className="text-2xl sm:text-3xl font-extrabold text-white font-display">
+              <h3 className="text-2xl sm:text-3xl font-extrabold text-white!">
                 Complete Replacement or 100% Refund Policy
               </h3>
 
@@ -115,7 +116,7 @@ export function LiveDeliveryGuarantee() {
                 href={generateWhatsAppLink(
                   undefined,
                   undefined,
-                  "Hi Sajith, I would like to know how live shipping works for my city/pincode, and confirm current dispatch days."
+                  "Hi Sajith, I would like to know how live shipping works for my city/pincode, and confirm current dispatch days.",
                 )}
                 target="_blank"
                 rel="noopener noreferrer"

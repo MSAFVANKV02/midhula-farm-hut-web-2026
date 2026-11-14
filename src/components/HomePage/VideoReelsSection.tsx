@@ -25,9 +25,9 @@ export function VideoReelsSection() {
 
   return (
     <section id="reels" className="">
-      <div className="max-w-7xl mx-auto ">
+      <div className="max-w-7xl sm:pt-6 md:pt-14 pt-4 space-y-6 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
           <div>
             <h2 className="text-3xl sm:text-4xl font-black text-slate-950 tracking-tight font-display">
               Watch Our Live Stock in Action

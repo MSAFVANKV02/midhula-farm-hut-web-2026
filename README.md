@@ -43,7 +43,7 @@ The user experience has been designed with a **clean, high-contrast, modern aqua
 ## 📱 Interactive Homepage Features
 
 ### 1. High-Impact Hero with Live Kerala Hatchery Stats
-- Live counter metrics: **28.7K+** Instagram Community, **75K+** YouTube, **15,000+** Safe Parcels Dispatched, **99.8%** Live Arrival Rate.
+- Live counter metrics: **28.7K+** Instagram Community, **91.7K+** YouTube, **15,000+** Safe Parcels Dispatched, **99.8%** Live Arrival Rate.
 - Active Thrissur Farm Weather & Spring Water Condition indicator.
 - Featured Strain Spotlight card with real-time pair booking.
 

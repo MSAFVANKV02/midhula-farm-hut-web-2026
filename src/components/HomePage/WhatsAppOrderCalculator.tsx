@@ -14,7 +14,9 @@ import {
 } from "lucide-react";
 
 export function WhatsAppOrderCalculator() {
-  const [selectedBreedId, setSelectedBreedId] = React.useState(LIVE_STOCK[0].id);
+  const [selectedBreedId, setSelectedBreedId] = React.useState(
+    LIVE_STOCK[0].id,
+  );
   const [pairCount, setPairCount] = React.useState(1);
   const [shippingZone, setShippingZone] = React.useState("kerala");
   const [pincode, setPincode] = React.useState("");
@@ -22,7 +24,10 @@ export function WhatsAppOrderCalculator() {
   const currentBreed =
     LIVE_STOCK.find((b) => b.id === selectedBreedId) || LIVE_STOCK[0];
 
-  const zonePricing: Record<string, { label: string; courier: number; days: string }> = {
+  const zonePricing: Record<
+    string,
+    { label: string; courier: number; days: string }
+  > = {
     kerala: {
       label: "Kerala (Next Day Express Delivery)",
       courier: 180,
@@ -63,26 +68,32 @@ Please confirm live availability and send payment / dispatch details!`;
 
     window.open(
       generateWhatsAppLink(undefined, undefined, formattedMessage),
-      "_blank"
+      "_blank",
     );
   };
 
   return (
-    <section id="calculator" className="py-20 bg-white border-b border-slate-200/80">
+    <section
+      id="calculator"
+      className="py-14 bg-white border-b border-slate-200/80"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto rounded-3xl p-8 sm:p-12 bg-white border border-slate-200 shadow-xl relative">
+        <div className="rounded-3xl p-8 sm:p-12 bg-white border border-slate-200 shadow-xl relative">
           {/* Title Header */}
-          <div className="text-center max-w-xl mx-auto mb-10">
+          <div className="text-center max-w-xl mx-auto mb-10 md:mb-14">
             <div className="inline-flex items-center gap-2 mb-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-xs font-semibold text-blue-700">
               <Calculator className="w-3.5 h-3.5 mr-1" />
               <span>Transparent Pricing Calculator</span>
             </div>
-            <h2 className="text-2xl sm:text-4xl font-black text-slate-950 tracking-tight font-display">
-              Calculate Your Order &amp; Delivery Cost
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-600 mt-2">
-              Select your strain and destination to generate a real-time price estimate and instant WhatsApp booking.
-            </p>
+            <div>
+              <h2 className="text-3xl sm:text-5xl font-black text-slate-950 tracking-tight font-display">
+                Calculate Your Order &amp; Delivery Cost
+              </h2>
+              <p className="text-slate-600 text-xs mt-2 max-w-2xl leading-relaxed">
+                Select your strain and destination to generate a real-time price
+                estimate and instant WhatsApp booking.
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
@@ -103,7 +114,8 @@ Please confirm live availability and send payment / dispatch details!`;
                 >
                   {LIVE_STOCK.map((breed) => (
                     <option key={breed.id} value={breed.id}>
-                      {breed.name} ({breed.categoryLabel}) - {formatINR(breed.price)}
+                      {breed.name} ({breed.categoryLabel}) -{" "}
+                      {formatINR(breed.price)}
                     </option>
                   ))}
                 </select>
@@ -150,7 +162,9 @@ Please confirm live availability and send payment / dispatch details!`;
                   onChange={(e) => setShippingZone(e.target.value)}
                   className="w-full p-3 rounded-xl bg-slate-50 border border-slate-300 text-slate-900 text-sm focus:outline-none focus:border-blue-600 focus:bg-white cursor-pointer"
                 >
-                  <option value="kerala">Kerala (Overnight Express - 24 hrs)</option>
+                  <option value="kerala">
+                    Kerala (Overnight Express - 24 hrs)
+                  </option>
                   <option value="south">
                     South India (Karnataka, Tamil Nadu, AP, Telangana)
                   </option>
